@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+.container{
+    display: flex;
+    padding: 0 2rem;
+    background-color:crimson;
+    height: 5rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar{
+    box-shadow: 0 0 30px rgba(0,0,0,0.1);
+    background-color:white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.Logo{
+    font-family: 'Courgette', cursive;
+    font-size: 2rem;
+    color: crimson;
+    margin: 1rem 0;
+    text-decoration: none;
+}
+.navbar__left,.navbar__right{
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.Btn{
+    background-color: crimson;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width:100%;
+}
+
+.d_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    background-color:crimson;
+    height: 5rem;
+    margin-top: 3rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.userimg{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+.user__info{
+    display: flex;
+    align-items: center;
+}
+.user__name{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    margin-left:20px;
+}
+.user__email{
+    font-size: 1rem;
+    color: white;
+}
